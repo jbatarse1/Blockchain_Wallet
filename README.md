@@ -11,14 +11,16 @@ Features include:
 * Complete script for easy transaction. 
 * Userfriendly interface Streamlit application
 * Integration of defined functions in `crypto_wallet.py
+* Send Ethereum via Blockchain test environment for simulations.
 
 To do these, complete the following steps:
 
 1. Launch Ganache:  https://trufflesuite.com/ganache/
 
 2. In the terminal, run the Streamlit application by
-using `streamlit run fintech_finder.py`. This will open a web browser
-at `localhost:8501`.
+using `streamlit run fintech_finder.py`. This will open a web browser:
+Local URL: http://localhost:8501
+Network URL: http://192.168.1.2:8501
 
 3. Verify Ethereum address and balance to confirm total wage afforability.
 
@@ -59,15 +61,16 @@ This application incorportates the following required dependancies to run:
 
 The following installation must be performed before running the program. It include:
 
-pip intall streamlit
+Download Ganache to local environment
+
+pip install streamlit --upgrade
 
 
 ## Usage
 
 To run this application, create a clone on the local desktop. Then, initiate your conda environment.
-In Terminal command line, type `streamlit run fintech_finder.py`. This will open a web browser.
-
-Below is a validated and verified transaction example:
+In Terminal command line, type `streamlit run fintech_finder.py`. Upon selecting Person, Hours and 
+clicking Send Transaction, below is a validated and verified transaction example:
 
 Send Transaction and Validated Transaction Hash on Streamlite:
 <img width="1088" alt="transaction" src="https://user-images.githubusercontent.com/93550651/167327057-a57dad10-426f-4f12-abda-5e795e4237a0.png">
