@@ -4,7 +4,7 @@ This Python application is a simulation to recruit, to hire and to pay fintech p
 
 Integrating `finTech_finder.py` and `crypto_wallet.py` will automate the tasks associated with generating a digital wallet, accessing Ethereum account balances, and signing and sending transactions via a personal Ethereum blockchain called Ganache.
 
-The Wallet will allow to conduct human resource transactions and to pay via a personal Ethernet Blockchain, account address and Ether.
+This Wallet will allow to conduct human resource transactions and to pay in Ether.
 
 Features include:
 
@@ -14,19 +14,20 @@ Features include:
 
 To do these, complete the following steps:
 
-1. In the terminal, run the Streamlit application by
+1. Launch Ganache:  https://trufflesuite.com/ganache/
+
+2. In the terminal, run the Streamlit application by
 using `streamlit run fintech_finder.py`. This will open a web browser
 at `localhost:8501`.
 
-2. Verify Ethereum address and balance to confirm total wage afforability.
+3. Verify Ethereum address and balance to confirm total wage afforability.
 
-
-3. Select a Person and Number of Hours needed for work. This will
+4. Select a Person and Number of Hours needed for work. This will
    calculate the `Total Wage in Ether`.
 
-4. Click `Send Transaction`
+5. Click `Send Transaction`
 
-5. To confirm transaction, go to Ganache. Here, the transcations
+6. To confirm transaction, go to Ganache. Here, the transcations
     are detailed.
 
 ## Technologies
