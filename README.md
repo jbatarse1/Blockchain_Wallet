@@ -29,7 +29,7 @@ Network URL: http://192.168.1.2:8501
 
 5. Click `Send Transaction`
 
-6. To confirm transaction, go to Ganache. Here, the transcations
+6. To confirm transaction, go to Ganache. Here, the transactions
     are detailed.
 
 ## Technologies
