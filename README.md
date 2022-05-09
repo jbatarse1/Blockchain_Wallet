@@ -1,18 +1,16 @@
 # Blockchain_Wallet
 
-`finTech_finder.py`, in combination with `crypto_wallet.py`
-
 This Python application is a simulation to recruit, to hire and to pay fintech professionals via Blockchain. Streamlit dashboard allows for a user-friendly web interface. It utilizes 3 components: Python, Streamlit, and Ganache.
 
-The wallet will allow hiring person to conduct human resource transactions and to pay via a simulated Ethernet Blockchain, account address and Ether.
+Integrating `finTech_finder.py` and `crypto_wallet.py` will automate the tasks associated with generating a digital wallet, accessing Ethereum account balances, and signing and sending transactions via a personal Ethereum blockchain called Ganache.
+
+The Wallet will allow to conduct human resource transactions and to pay via a personal Ethernet Blockchain, account address and Ether.
 
 Features include:
 
-Complete script for easy transaction. 
-
-Userfriendly interface Streamlit application
-
-Integration of defined functions in `crypto_wallet.py
+* Complete script for easy transaction. 
+* Userfriendly interface Streamlit application
+* Integration of defined functions in `crypto_wallet.py
 
 To do these, complete the following steps:
 
@@ -66,7 +64,7 @@ pip intall streamlit
 ## Usage
 
 To run this application, create a clone on the local desktop. Then, initiate your conda environment.
-In Terminal command line, type "streamlit run pychain.py". This will open a web browser.
+In Terminal command line, type `streamlit run fintech_finder.py`. This will open a web browser.
 
 Below is a validated and verified transaction example:
 
