@@ -39,21 +39,21 @@ This application incorportates the following required dependancies to run:
 ### Import the required libraries and dependencies for Python
 
 `fintech_finder.py`
-import streamlit as st
-from dataclasses import dataclass
-from typing import Any, List
-from web3 import Web3
-w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
+- import streamlit as st
+- from dataclasses import dataclass
+- from typing import Any, List
+- from web3 import Web3
+- w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
 
 `crypto_wallet.py
-import os
-import requests
-from dotenv import load_dotenv
-load_dotenv()
-from bip44 import Wallet
-from web3 import Account
-from web3 import middleware
-from web3.gas_strategies.time_based import medium_gas_price_strategy
+- import os
+- import requests
+- from dotenv import load_dotenv
+- load_dotenv()
+- from bip44 import Wallet
+- from web3 import Account
+- from web3 import middleware
+- from web3.gas_strategies.time_based import medium_gas_price_strategy
 
 
 ## Installation Guide
