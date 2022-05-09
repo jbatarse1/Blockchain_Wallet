@@ -70,12 +70,17 @@ In Terminal command line, type "streamlit run pychain.py". This will open a web 
 
 Below is a validated and verified transaction example:
 
+Send Transaction and Validated Transaction Hash on Streamlite:
+<img width="1088" alt="transaction" src="https://user-images.githubusercontent.com/93550651/167327057-a57dad10-426f-4f12-abda-5e795e4237a0.png">
 
-Transactions Verified 
+Ganache Transactions Verified:
+<img width="1023" alt="Ganache_verify" src="https://user-images.githubusercontent.com/93550651/167327076-5c07e7eb-77d8-45a1-aac4-e69df3e6bed6.png">
 
+Ganache Transaction Receipt:
+<img width="1116" alt="Ganache_receipt" src="https://user-images.githubusercontent.com/93550651/167327095-2061af95-0101-4588-86c0-8e9581dd78f9.png">
 
-
-
+Ganache Block Hash:
+<img width="1106" alt="Block3_Hash" src="https://user-images.githubusercontent.com/93550651/167327130-623b8695-b2f0-46e0-8ae3-13b11a42f180.png">
 
 
 ## Contributors
